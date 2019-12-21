@@ -9,7 +9,7 @@ namespace R5T.Larissa.Configuration.Suebia
 {
     public static class IConfigurationBuilderExtensions
     {
-        public static IConfigurationBuilder AddDotnetConfigurationJsonFile(this IConfigurationBuilder configurationBuilder, IServiceProvider configurationServiceProvider)
+        public static IConfigurationBuilder AddSvnConfigurationJsonFile(this IConfigurationBuilder configurationBuilder, IServiceProvider configurationServiceProvider)
         {
             configurationBuilder.AddJsonSecretsFilePath(configurationServiceProvider, FileNames.SvnConfigurationJsonFileName);
 
