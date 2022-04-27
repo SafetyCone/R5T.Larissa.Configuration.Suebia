@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using R5T.Suebia;
+using R5T.Suebia;using R5T.T0064;
 
 
 namespace R5T.Larissa.Configuration.Suebia
-{
-    public class SvnConfigurationJsonFilePathProvider : ISvnConfigurationJsonFilePathProvider
+{[ServiceImplementationMarker]
+    public class SvnConfigurationJsonFilePathProvider : ISvnConfigurationJsonFilePathProvider,IServiceImplementation
     {
         private ISecretsDirectoryFilePathProvider SecretsDirectoryFilePathProvider { get; }
 

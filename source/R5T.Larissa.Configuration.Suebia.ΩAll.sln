@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Larissa.Configuration.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Larissa.Configuration.Suebia.Testing", "R5T.Larissa.Configuration.Suebia.Testing\R5T.Larissa.Configuration.Suebia.Testing.csproj", "{379D6244-D7B6-4DB4-A332-55D42A5B5C00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{5F4F31BA-26A1-483C-AB23-8A5C61285850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{379D6244-D7B6-4DB4-A332-55D42A5B5C00}.Release|x64.Build.0 = Release|Any CPU
 		{379D6244-D7B6-4DB4-A332-55D42A5B5C00}.Release|x86.ActiveCfg = Release|Any CPU
 		{379D6244-D7B6-4DB4-A332-55D42A5B5C00}.Release|x86.Build.0 = Release|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Debug|x64.Build.0 = Debug|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Debug|x86.Build.0 = Debug|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Release|x64.ActiveCfg = Release|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Release|x64.Build.0 = Release|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Release|x86.ActiveCfg = Release|Any CPU
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4ECFFCD9-88B2-41FA-A504-8FCD39EA758A} = {5F4F31BA-26A1-483C-AB23-8A5C61285850}
 	EndGlobalSection
 EndGlobal
